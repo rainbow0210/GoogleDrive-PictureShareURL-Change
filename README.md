@@ -20,6 +20,23 @@ Google drive picture share link change embeddable link. (Use example: html img t
 
 * python-dotenv
 
+## Command List
+* `/change_url <share_url>`: Converts a Google Drive share link into an embeddable direct URL.
+
+	Example (Discord slash command format):
+
+```
+/change_url share_url:https://drive.google.com/file/d/FILE_ID/view?usp=sharing
+```
+
+	Response: The converted URL is returned as an embed. Example:
+
+```
+http://drive.google.com/uc?export=view&id=FILE_ID
+```
+
+	Note: Unsupported links return an error response.
+
 ## How to use?
 1. Install required packages:
 
@@ -80,6 +97,23 @@ Discord上で動作する、Googleドライブの画像ファイルの共有リ�
 * py-cord 2.4.0
 
 * python-dotenv
+
+## コマンド一覧
+* `/change_url <share_url>`: Googleドライブの共有リンクを埋め込み可能な直接URLに変換します。
+
+	例（Discordのスラッシュコマンド形式）:
+
+```
+/change_url share_url:https://drive.google.com/file/d/FILE_ID/view?usp=sharing
+```
+
+	返信: 変換後のURLが埋め込みで返されます（例）:
+
+```
+http://drive.google.com/uc?export=view&id=FILE_ID
+```
+
+	補足: 非対応のリンクの場合はエラー応答になります。
 
 ## 使い方
 1. 必要パッケージのインストール:
