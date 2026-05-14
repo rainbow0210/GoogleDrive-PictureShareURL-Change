@@ -21,7 +21,25 @@ Google drive picture share link change embeddable link. (Use example: html img t
 * python-dotenv
 
 ## How to use?
-Please wait editting...
+1. Install required packages:
+
+```
+pip install py-cord python-dotenv
+```
+
+2. Create a `.env` file in the project root with your bot token:
+
+```
+token=YOUR_BOT_TOKEN
+```
+
+3. Run the bot:
+
+```
+python bot.py
+```
+
+4. In Discord, use the slash command `/generate_directlink` and paste a Google Drive share link to get a direct-download URL.
 
 ## LICENCE
 MIT LICENCE↓
@@ -64,7 +82,25 @@ Discord上で動作する、Googleドライブの画像ファイルの共有リ�
 * python-dotenv
 
 ## 使い方
-しばらくお待ちください...
+1. 必要パッケージのインストール:
+
+```
+pip install py-cord python-dotenv
+```
+
+2. プロジェクトルートに `.env` ファイルを作成し、Botのトークンを記述してください:
+
+```
+token=YOUR_BOT_TOKEN
+```
+
+3. Botを起動:
+
+```
+python bot.py
+```
+
+4. Discord内でスラッシュコマンド `/generate_directlink` を実行し、Googleドライブの共有リンクを貼り付けるとダイレクトダウンロード用URLが得られます。
 
 ## ライセンス
 MIT LICENCE↓
