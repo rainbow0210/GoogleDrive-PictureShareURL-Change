@@ -39,7 +39,7 @@ token=YOUR_BOT_TOKEN
 python bot.py
 ```
 
-4. In Discord, use the slash command `/generate_directlink` and paste a Google Drive share link to get a direct-download URL.
+4. In Discord, use the slash command `/change_url` and paste a Google Drive share link to get a direct-download URL.
 
 ## LICENCE
 MIT LICENCE↓
@@ -100,7 +100,7 @@ token=YOUR_BOT_TOKEN
 python bot.py
 ```
 
-4. Discord内でスラッシュコマンド `/generate_directlink` を実行し、Googleドライブの共有リンクを貼り付けるとダイレクトダウンロード用URLが得られます。
+4. Discord内でスラッシュコマンド `/change_url` を実行し、Googleドライブの共有リンクを貼り付けるとダイレクトダウンロード用URLが得られます。
 
 ## ライセンス
 MIT LICENCE↓
